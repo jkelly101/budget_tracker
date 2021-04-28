@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
@@ -24,5 +25,5 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
-  console.log(`App running on https://localhost/${PORT} !`);
+  console.log(`App running on http://localhost:${PORT} !`);
 });
