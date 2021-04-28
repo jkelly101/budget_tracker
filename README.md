@@ -26,7 +26,7 @@ When the App comes back online, the cached data will be retrieved and the Budget
 
 ## Link
 
-Link to the deployed site: [Budget Tracker](https://git.heroku.com/fathomless-river-30495.git)
+Link to the deployed site: [Budget Tracker](https://fathomless-river-30495.herokuapp.com/)
 
 ## Questions
 
